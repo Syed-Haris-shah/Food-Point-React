@@ -1,10 +1,13 @@
 import './App.css'
+import Navbar from './components/Navbar'
+import SearchMenu from './components/SearchMenu'
 
 function App() {
 
   return (
     <>
-    <h1>FOOD POINT</h1>
+    <Navbar></Navbar>
+    <SearchMenu></SearchMenu>
     </>
   )
 }
