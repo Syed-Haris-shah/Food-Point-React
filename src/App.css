@@ -120,8 +120,6 @@ a:hover{
   transform: scale(1.1);
 }
 
-
-
 .explore-food-card img {
   width: 100%;
   height: 100%;
@@ -136,4 +134,76 @@ a:hover{
   color: white;
   font-weight: bold;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.food-menu-container {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+
+}
+
+.food-menu-list {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80%;
+
+}
+
+.food-heading {
+  margin-bottom: 35px;
+  font-size: 36px;
+
+}
+
+.foodCard-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 15px;
+  background-color: #fff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.foodCard-container img {
+
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  object-fit: cover;
+
+}
+
+.foodCard-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+
+}
+
+.foodCard-details h1, h2 , p {
+  font-size: 20px;
+  color: #333;
+}
+
+.foodCard-details button {
+  padding: 10px 20px;
+  font-size: 15px;
+  color: white;
+  background-color: #ff6347;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.foodCard-details button:hover {
+  background-color: #ff4500;
 }
