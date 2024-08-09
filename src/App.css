@@ -141,12 +141,11 @@ a:hover{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 40px 20px;
-
+  padding: 40px 0;
+  background-color: #EDECEA;
 }
 
 .food-menu-list {
-
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -169,10 +168,11 @@ a:hover{
   background-color: #fff;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+  width: 40%;
+
 }
 
 .foodCard-container img {
-
   width: 150px;
   height: 150px;
   border-radius: 8px;
@@ -185,7 +185,7 @@ a:hover{
   flex-direction: column;
   align-items: flex-start;
   margin-left: 20px;
-
+  line-height: 0.4px;
 }
 
 .foodCard-details h1, h2 , p {
