@@ -149,7 +149,7 @@ a:hover{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  width: 80%;
+  /* width: 80%; */
 
 }
 
@@ -207,3 +207,4 @@ a:hover{
 .foodCard-details button:hover {
   background-color: #ff4500;
 }
+

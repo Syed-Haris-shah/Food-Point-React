@@ -14,7 +14,6 @@ function FoodCard({title, price, ingredients, image}) {
             <p>{ingredients}</p>
             <button>Order Now</button>
         </div>
-      
     </div>
   )
 }

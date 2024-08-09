@@ -14,8 +14,8 @@ function FoodMenu({foodNames}) {
                 ingredients={food.ingredients}
                 image={food.image} />
             ))}
-
         </div>
+        <p className='saf'> See All Foods</p>
     </div>
   )
 }
