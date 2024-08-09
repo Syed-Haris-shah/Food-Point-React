@@ -149,7 +149,7 @@ a:hover{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  /* width: 80%; */
+  width: 100%;
 
 }
 
@@ -208,3 +208,41 @@ a:hover{
   background-color: #ff4500;
 }
 
+.saf {
+  color: #E1737F;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.saf:hover {
+  color: #ff4500;
+}
+
+.footer-container {
+  padding: 10px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-container p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+
+
+.footer-img img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.footer-img a img.twitter {
+  width: 50px;
+}
